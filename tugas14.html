@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Olahraga</title>
+    <style>
+        body {
+            background-image: url("css/warna.jpg");
+            background-position: center;
+            background-size: cover; 
+        }
+    </style>
+    <link rel="stylesheet" href="w3.css">
+</head>
+<body>
+
+<img src="1.jpg" style="width: 100%;">
+
+<div class="w3-bar w3-blue w3-card-4">
+    <button class="w3-bar-item w3-button" onclick="openKota('profil')">Profil</button>
+    <button class="w3-bar-item w3-button" onclick="openKota('olahraga')">Olahraga</button>
+    <button class="w3-bar-item w3-button" onclick="openKota('futsal')">Futsal</button>
+    <button class="w3-bar-item w3-button" onclick="openKota('basket')">Basket</button>
+    <button class="w3-bar-item w3-button" onclick="openKota('renang')">Renang</button>
+
+    <div class="w3-dropdown-hover">
+        <button class="w3-button">Favorit</button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <button class="w3-bar-item w3-button" onclick="openKota('minisoccer')">Mini Soccer</button>
+            <button class="w3-bar-item w3-button" onclick="openKota('bersepeda')">Bersepeda</button>
+            <button class="w3-bar-item w3-button" onclick="openKota('tenismeja')">Tenis Meja</button>
+        </div>
+    </div>
+</div>
+
+<div id="profil" class="w3-container kota w3-animate-zoom w3-card-4 w3-aqua" style="display:none; opacity: 70%;">
+    <center>
+        <h1 ><b>PROFIL</h1>
+    <img src="profile.jpg" style="width: 25%;">
+        <p>Nama : Farhan Habibi Hasibuan</p>
+        <p>Nim : 10123243</p>
+        <p>Kelas : IF-6</p>
+    </center>
+</div>
+
+<div id="olahraga" class="w3-container kota w3-animate-fading w3-card-4 w3-aqua" style="display:none; opacity: 70%;">
+    <center>
+    <h1><b>Olahraga</b></h1>
+    <br>
+    <img src="2.jpg" style="width: 50%;">
+    <br><br>
+        <p>Olahraga memiliki peran yang penting dalam menunjang kesehatan tubuh. Dengan berolahraga, tubuh akan tetap sehat serta bugar.</p>
+        <p>Manfaat dan tujuan utama berolahraga adalah untuk meningkatkan kesehatan dan kebugaran fisik dan psikis seseorang.
+           Karena melibatkan kegiatan fisik, otak kita dapat berfokus pada hal lain sehingga tidak kaku dan tegang akibat stres-stres kehidupan.</p>
+        <p>Contoh Olahraga adalah Futsal,Basket,Renang.</p>
+    <br><br>
+        <p>Ayo mulai pola hidup sehat mulai dari sekarang!</p>
+    </center>
+</div>
+
+<div id="futsal" class="w3-container kota w3-animate-left w3-card-4 w3-aqua" style="display:none; opacity: 70%;">
+    <center>
+      <h1><b>Futsal</h1></b>
+	</center>
+	
+	<div class="w3-panel w3-light-gray w3-round-xlarge">
+	    <p>
+	        <center>
+	            <h2>Apa itu Futsal?</h2>
+                <img src="3.jpg" style="width: 15%;">
+                <p>Kata futsal berasal dari bahasa Spanyol, yaitu 'Futbol' dan 'Sala', yang artinya sepakbola dalam ruangan.
+                   Sementara jika merujuk pada Kamus Besar Bahasa Indonesia, futsal adalah permainan sepakbola dengan lapangan dan gawang lebih kecil.</p>
+            </center>
+        </p>
+	</div>
+
+    <div class="w3-panel w3-light-gray w3-round-xlarge">
+        <p>
+            <center>
+                <h2>Pertandingan Internasional Futsal Pertama</h2>
+                <img src="4.jpg" style="width: 15%;">
+                <p>US Youth Futsal melaporkan futsal pertama kali dipertandingkan di ajang internasional pada tahun yang sama dengan Paraguay sebagai juara.
+                   Lalu di tahun 1989, Federation Internationale de Football Association (FIFA) mengambil alih futsal sebagai badan organisasi internasional,
+                   dan mengadakan kejuaraan dunia futsal pada bulan Januari di Belanda.
+            </center>
+        </p>
+    </div>
+
+    <div class="w3-panel w3-light-gray w3-round-xlarge">
+        <p>
+            <center>
+                <h2>Pertama Kali Masuk ke Indonesia</h2>
+                <img src="5.jpg" style="width: 15%;">
+                <p>Tak hanya di negara Amerika dan Eropa, futsal juga merambah hingga ke Indonesia.
+                   Diketahui, futsal masuk saat Indonesia dilanda krisis moneter, yakni di tahun 1998-1999.
+                   Namun eksistensinya baru diakui secara resmi pada 2022 saat Indonesia didaulat sebagai penyelenggara putaran final kejuaraan tingkat Asia di Jakarta.</p>
+            </center>
+        </p>
+    </div>
+</div>
+
+<div id="basket" class="w3-container kota w3-animate-bottom w3-card-4 w3-aqua" style="display:none; opacity: 70%;">
+    <center>
+        <h1><b>Basket</b></h1>
+    </center>
+
+    <div class="w3-panel w3-light-gray w3-round-xlarge">
+        <p>
+            <center>
+                <img src="6.jpg" style="width: 50%;">
+                <p>Permainan bola basket memiliki asal mula yang menarik. Permainan ini diciptakan oleh seorang instruktur olahraga asal Kanada bernama Dr. James Naismith pada tahun 1891.
+                   Penciptaan permainan ini terjadi ketika Dr. Naismith ditugaskan untuk menciptakan sebuah permainan yang dapat dilakukan di dalam ruangan sebagai alternatif olahraga bagi siswa di Sekolah Pelatihan Fisik Internasional YMCA di Springfield, Massachusetts, Amerika Serikat.</p>
+
+                <p>Pada awalnya, permainan bola basket dimainkan dengan aturan sederhana yang mencakup mengejar bola dan mencoba melemparkannya ke dalam keranjang buah persik yang tergantung di dinding gymnasium.
+                   Dr. Naismith membuat sejumlah aturan dasar untuk permainan ini, termasuk larangan berlari dengan bola, memukul lawan, dan menangkap lawan.
+                   Ide dasar dalam permainan ini adalah untuk mencetak poin dengan melemparkan bola ke dalam keranjang lawan.</p>
+                    
+                <p>Permainan ini segera menjadi populer di seluruh dunia dan mengalami berbagai perkembangan dan modifikasi dalam aturan seiring berjalannya waktu.
+                   Bola basket kemudian menjadi salah satu olahraga paling populer di dunia,dengan organisasi seperti National Basketball Association (NBA) yang mendominasi liga profesional di Amerika Serikat dan sejumlah kompetisi internasional yang menampilkan tim nasional.
+                   Jadi, asal mula permainan bola basket berasal dari usaha Dr. James Naismith untuk menciptakan olahraga yang bisa dimainkan di dalam ruangan, dan permainan ini telah berkembang menjadi salah satu olahraga yang paling ikonik dan populer di dunia.</p>
+            </center>
+        </p>
+    </div>
+</div>
+
+<div id="renang" class="w3-container kota w3-animate-left w3-card-4 w3-aqua" style="display:none; opacity: 70%;">
+    <center>
+        <h1><b>Renang</b></h1>
+    </center>
+    <div class="w3-panel w3-light-gray w3-round-xlarge">
+        <p>
+            <center>
+                <img src="10.jpg" style="width: 50%;">
+                <p>Renang merupakan salah satu cabang olahraga akuatik, di mana kecepatan gerakan kaki dan tangan menjadi kunci utamanya agar tubuh tetap mengapung.
+                   Manfaat berenang cukup beragam, hingga olahraga ini menjadi salah satu olahraga populer di seluruh dunia.</p>
+            </center>
+        </p>
+    </div>
+</div>
+
+
+
+
+<div id="minisoccer" class="w3-container kota w3-animate-bottom w3-card-4 w3-aqua" style="display:none; opacity: 70%;">
+    <center>
+        <h1><b>Mini Soccer</b></h1>
+    <img src="7.jpg" style="width: 25%;">  
+    <p>Mini Soccer merupakan Olahraga favorit saya karena lapangannya memiliki rumput yang sintetis sehingga mengurangi terjadinya cedera.</p>    
+</div>
+
+<div id="bersepeda" class="w3-container kota w3-animate-bottom w3-card-4 w3-aqua" style="display:none; opacity: 70%;">
+    <center>
+        <h1><b>Bersepeda</b></h1>
+    <img src="8.jpg" style="width: 25%;"> 
+    <p>Bersepeda dapat menghilangkan stress karena kita bisa melihat pemandangan di sekitar.</p>
+    </center>	      
+</div>
+<div id="tenismeja" class="w3-container kota w3-animate-bottom w3-card-4 w3-aqua" style="display:none; opacity: 70%;">
+    <center>
+        <h1 ><b>Tenis Meja</h1>
+     <img src="9.jpg" style="width: 25%;"> 
+     <p>Tenis meja adalah olahraga yang menurut saya paling menantang karena di olahraga ini melatih kefokusan.</p>
+    </center>	      
+</div>
+
+<script>
+    function openKota(namakota) {
+        var i;
+        var x = document.getElementsByClassName("kota");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        document.getElementById(namakota).style.display = "block";
+    }
+</script>
+
+</body>
+</html>
